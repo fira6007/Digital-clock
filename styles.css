@@ -30,3 +30,9 @@ body{
     #clock{ 
     font-size: 3rem;}
 }
+h1{
+    text-align: center;
+    color: hsl(182, 94%, 51%);
+    font-size: 44px;
+    font-weight: 900;
+}
