@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Hello, World!</h1>
+    <p>This is a simple HTML document.</p>
+
+    <script>
+        // Get the current date and time
+        let now = new Date();
+        let currentDate = now.toLocaleDateString();
+        let currentTime = now.toLocaleTimeString();
+
+        // Display the current date and time
+        document.getElementById("current-date").innerHTML = currentDate;
+        document.getElementById("current-time").innerHTML = currentTime;
+    </script>
+
+    <div id="current-date"></div>
+    <div id="current-time"></div>
+</body>
+</html>
